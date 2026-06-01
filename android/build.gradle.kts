@@ -5,7 +5,7 @@ allprojects {
     }
 }
 plugins {
-    id("com.google.gms.google-services") version "4.4.4" apply false
+    id("com.google.gms.google-services") version "4.3.15" apply false
 }
 dependencies {
 implementation(platform("com.google.firebase:firebase-bom:34.13.0"))
